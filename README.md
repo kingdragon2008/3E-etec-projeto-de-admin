@@ -1,6 +1,16 @@
 # projeto-admin 
+
+## Nome dos Integrantes
+>1-
+>2-
+>3-
+
+---
 📚 Sistema de Reclamações Escolares
 
+
+
+---
 📝 Descrição
 
 Este projeto consiste em um sistema digital desenvolvido para facilitar a comunicação dentro do ambiente escolar. A plataforma permite que professores registrem reclamações, enquanto os alunos podem acessar e acompanhar essas informações de forma organizada.
