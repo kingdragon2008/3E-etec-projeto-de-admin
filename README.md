@@ -1,9 +1,9 @@
 # projeto-admin 
 
 ## Nome dos Integrantes
->1-
->2-
->3-
+>1- Isaac Vicêncio
+>2-Henrick França
+>3- Maryanne Costa 
 
 ---
 📚 Sistema de Reclamações Escolares
