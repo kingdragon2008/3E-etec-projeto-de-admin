@@ -1,12 +1,14 @@
-# projeto-admin 
+# projeto-denúncias 
 
 ## Nome dos Integrantes
 >1- Isaac Vicêncio
+
 >2-Henrick França
+
 >3- Maryanne Costa 
 
 ---
-📚 Sistema de Reclamações Escolares
+📚 Sistema de denuncias anônimas 
 
 
 
