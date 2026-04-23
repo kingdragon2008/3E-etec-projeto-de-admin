@@ -129,3 +129,12 @@ Gerenciamento de contas
 📄 Licença
 
 Este projeto é de uso educacional e pode ser adaptado conforme necessário.
+
+## 📊 Modelagem do Banco
+
+Veja a modelagem completa em:
+- [Modelagem](modelagem.md)
+- Diagrama DER em /docs
+
+
+
