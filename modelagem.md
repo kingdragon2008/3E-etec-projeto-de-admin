@@ -51,29 +51,33 @@ Professor (1) -------- (N) Reclamação
 ## 🧱 Modelo Entidade-Relacionamento (DER)
 
 ### 🗄️ Tabela: usuarios
-
-| Campo        | Tipo        | Descrição                         |
-|-------------|------------|----------------------------------|
-| id_usuario  | INT (PK)   | Identificador único do usuário    |
-| nome        | VARCHAR    | Nome do usuário                  |
-| email       | VARCHAR    | Email (único)                    |
-| senha       | VARCHAR    | Senha criptografada              |
-| tipo_usuario| ENUM       | aluno, professor, coordenador    |
-
----
-
-### 🗄️ Tabela: reclamacoes
-
-| Campo          | Tipo        | Descrição                          |
-|---------------|------------|-----------------------------------|
-| id_reclamacao | INT (PK)   | Identificador da reclamação        |
-| titulo        | VARCHAR    | Título da reclamação               |
-| descricao     | TEXT       | Descrição detalhada                |
-| data_criacao  | DATETIME   | Data de criação                    |
-| status        | VARCHAR    | Situação da reclamação             |
-| id_professor  | INT (FK)   | Referência ao professor            |
-
----
+                +----------------------+
+                |       USUARIOS       |
+                +----------------------+
+                | PK id_usuario        |
+                | nome                |
+                | email (UNIQUE)      |
+                | senha               |
+                | tipo_usuario        |
+                | (aluno, professor, |
+                |  coordenador)       |
+                +----------------------+
+                          |
+                          | 1
+                          |
+                          | FAZ
+                          |
+                          | N
+                +----------------------+
+                |     RECLAMACOES      |
+                +----------------------+
+                | PK id_reclamacao     |
+                | titulo              |
+                | descricao           |
+                | data_criacao        |
+                | status              |
+                | FK id_professor     |
+                +----------------------+
 
 ## 🔗 Relacionamento no Banco
 
